@@ -11,6 +11,15 @@
 		A45829AA29AC9017004AAC8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45829A929AC9017004AAC8F /* ContentView.swift */; };
 		A45829AC29AC9019004AAC8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A45829AB29AC9019004AAC8F /* Assets.xcassets */; };
 		A45829AF29AC9019004AAC8F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A45829AE29AC9019004AAC8F /* Preview Assets.xcassets */; };
+		A45829B629AC9056004AAC8F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45829B529AC9056004AAC8F /* Data.swift */; };
+		A45829B829AC909A004AAC8F /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45829B729AC909A004AAC8F /* Post.swift */; };
+		A45829BB29AC9292004AAC8F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45829BA29AC9292004AAC8F /* ProfileView.swift */; };
+		A45829BD29AC92B7004AAC8F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45829BC29AC92B7004AAC8F /* SettingsView.swift */; };
+		A45829BF29AC92DC004AAC8F /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45829BE29AC92DC004AAC8F /* LoginView.swift */; };
+		A45829C129AC92F4004AAC8F /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45829C029AC92F4004AAC8F /* InfoView.swift */; };
+		A45829C329ACAE3D004AAC8F /* InfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45829C229ACAE3D004AAC8F /* InfoRow.swift */; };
+		A45829C529ACB001004AAC8F /* InfoDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45829C429ACB001004AAC8F /* InfoDetails.swift */; };
+		A45829C729ACB215004AAC8F /* TextFielder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45829C629ACB215004AAC8F /* TextFielder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +28,16 @@
 		A45829A929AC9017004AAC8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A45829AB29AC9019004AAC8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A45829AE29AC9019004AAC8F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A45829B529AC9056004AAC8F /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		A45829B729AC909A004AAC8F /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		A45829BA29AC9292004AAC8F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A45829BC29AC92B7004AAC8F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A45829BE29AC92DC004AAC8F /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		A45829C029AC92F4004AAC8F /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		A45829C229ACAE3D004AAC8F /* InfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoRow.swift; sourceTree = "<group>"; };
+		A45829C429ACB001004AAC8F /* InfoDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoDetails.swift; sourceTree = "<group>"; };
+		A45829C629ACB215004AAC8F /* TextFielder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFielder.swift; sourceTree = "<group>"; };
+		A45829C829ACCFE3004AAC8F /* --Homework-SwiftUI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "--Homework-SwiftUI-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +70,17 @@
 		A45829A629AC9017004AAC8F /* 4 Homework SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				A45829C829ACCFE3004AAC8F /* --Homework-SwiftUI-Info.plist */,
 				A45829A729AC9017004AAC8F /* __Homework_SwiftUIApp.swift */,
 				A45829A929AC9017004AAC8F /* ContentView.swift */,
+				A45829BE29AC92DC004AAC8F /* LoginView.swift */,
+				A45829BA29AC9292004AAC8F /* ProfileView.swift */,
+				A45829BC29AC92B7004AAC8F /* SettingsView.swift */,
+				A45829C029AC92F4004AAC8F /* InfoView.swift */,
+				A45829C229ACAE3D004AAC8F /* InfoRow.swift */,
+				A45829C429ACB001004AAC8F /* InfoDetails.swift */,
+				A45829C629ACB215004AAC8F /* TextFielder.swift */,
+				A45829B929AC90D7004AAC8F /* DataModel */,
 				A45829AB29AC9019004AAC8F /* Assets.xcassets */,
 				A45829AD29AC9019004AAC8F /* Preview Content */,
 			);
@@ -65,6 +93,15 @@
 				A45829AE29AC9019004AAC8F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A45829B929AC90D7004AAC8F /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				A45829B729AC909A004AAC8F /* Post.swift */,
+				A45829B529AC9056004AAC8F /* Data.swift */,
+			);
+			path = DataModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +174,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A45829C129AC92F4004AAC8F /* InfoView.swift in Sources */,
 				A45829AA29AC9017004AAC8F /* ContentView.swift in Sources */,
+				A45829C529ACB001004AAC8F /* InfoDetails.swift in Sources */,
+				A45829BF29AC92DC004AAC8F /* LoginView.swift in Sources */,
+				A45829B629AC9056004AAC8F /* Data.swift in Sources */,
+				A45829BB29AC9292004AAC8F /* ProfileView.swift in Sources */,
+				A45829BD29AC92B7004AAC8F /* SettingsView.swift in Sources */,
 				A45829A829AC9017004AAC8F /* __Homework_SwiftUIApp.swift in Sources */,
+				A45829C729ACB215004AAC8F /* TextFielder.swift in Sources */,
+				A45829B829AC909A004AAC8F /* Post.swift in Sources */,
+				A45829C329ACAE3D004AAC8F /* InfoRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +316,13 @@
 				DEVELOPMENT_TEAM = DRZ83U4BJ3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "--Homework-SwiftUI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +347,13 @@
 				DEVELOPMENT_TEAM = DRZ83U4BJ3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "--Homework-SwiftUI-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
